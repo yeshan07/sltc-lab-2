@@ -1,4 +1,4 @@
-# Deploying a Hello world API using Terraform and Github Actions(CI/CD)
+# Deploying a `Hello World` API using `Terraform` and `Github Actions`(CI/CD)
 
 This guide outlines the steps to create an S3 bucket for storing Terraform state files using the AWS CLI. It also covers optional steps for setting up state locking with DynamoDB.
 
@@ -22,7 +22,6 @@ S3 bucket name should be globally unique.Make sure to use a unique bucket name.
 
 ```bash
 aws s3 mb s3://chathra-tfstate-bkt --region us-east-1
-
 ```
 
 ### Step 3:  Enable Versioning
