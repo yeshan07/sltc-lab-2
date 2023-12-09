@@ -4,5 +4,5 @@ def handler(event, context):
     # Return a simple HTTP response
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello, World!')
+        'body': json.dumps('My first API')
     }
